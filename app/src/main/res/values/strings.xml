@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QR/BAR code scan </string>
+    <string name="my_code_name">TYPE QR-CODE NAME</string>
+    <string name="generate">Generate QR</string>
+    <string name="todo">TODO</string>
+    <string name="scan">Scan QR/Bar</string>
+</resources>

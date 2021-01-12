@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/qr_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:fontFamily="monospace"
+        android:hint="@string/my_code_name" />
+
+    <ImageView
+        android:id="@+id/qr_code"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/style_btn_stroke_black95_for_cube"
+        android:padding="5dp"
+        android:contentDescription="@string/todo" />
+
+
+    <LinearLayout
+        android:id="@+id/btnGenerateLayout"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buttonGenerate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_stroke_black_press_white"
+            android:fontFamily="monospace"
+            android:text="@string/generate"
+            android:textColor="@color/black95"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btnScanLayout"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="-90dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buttonScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_stroke_black_press_white"
+            android:fontFamily="monospace"
+            android:text="@string/scan"
+            android:textColor="@color/black95"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
